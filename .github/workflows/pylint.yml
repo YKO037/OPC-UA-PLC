@@ -21,4 +21,4 @@ jobs:
         pip install opcua
     - name: Analysing the code with pylint
       run: 
-        pylint $(git ls-files 'OP_Client_Test.py')
+        pylint $(git ls-files 'OPC_Client_Test.py')
