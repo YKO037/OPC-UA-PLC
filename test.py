@@ -12,8 +12,8 @@ objects = root_node.get_children()
 # for obs in objects:
 #     print(obs.get_path())
 
-plc_vars = ["Coil", "EMGC", "OVLD", "Start", "Stop"]  # Enter your variable names here
-node_path = ["Objects", "Symbol Set"] # Enter your node path here. It should be a list of strings.
+plc_vars = []  # Enter your variable names here
+node_path = [] # Enter your node path here. It should be a list of strings.
 
 
 """Function to read all the variables from the plc."""
